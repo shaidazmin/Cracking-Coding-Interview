@@ -8,4 +8,7 @@ class CalculateSum:
             total_sum += i
         return total_sum
     
-print(CalculateSum.sum_of_natural_numbers(5))    
+print(CalculateSum.sum_of_natural_numbers(int(input("Give an integer: "))))    
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
